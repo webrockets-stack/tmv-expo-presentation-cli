@@ -1,0 +1,23 @@
+/** Abstracts **/
+@import 'abstracts/variables';
+
+.layer-navigation {
+  nav {
+    ul {
+      list-style: none;
+      margin: 0;
+      margin-bottom: 20px;
+      padding: 10px 30px;
+      justify-content: space-between;
+      a.router-link-exact-active {
+        background: $nav-text-color-1 !important;
+      }
+    }
+  }
+}
+
+.layer-mv-games {
+  .card-btn {
+    padding: 30px;
+  }
+}
